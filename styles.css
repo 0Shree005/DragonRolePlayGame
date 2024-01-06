@@ -1,0 +1,63 @@
+body {
+    /* background-color: #0a0a23; Deep blue background */
+    background-color: #0a0a23;
+    }
+  
+  #text {
+    background-color: #0a0a23; /* Lighter blue for text area */
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #2fa9be;
+  }
+  
+  #game {
+    max-width: 500px;
+    max-height: 400px;
+     /* background-color: linear-gradient(to right, #0a0a23, #0f3d5e ); */
+    background-color: #0f3d5e;
+    /* background-color: linear-gradient(to right, #0f3d5e, #0a0a23); */
+    /* color: #57a3da;  */
+    margin: 30px auto 0px;
+    padding: 10px;
+  }
+  
+  #controls,
+  #stats {
+    border: 1px solid #2fa9be; /* Light blue for borders */
+    padding: 5px;
+    color: #ffffff;
+    background-color: #0a0a23;
+  }
+  
+  #monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+  }
+  
+  .stat {
+    padding-right: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    color: #ffffff; /* White text for contrast */
+    background-color: #0f3d5e; /* Deep blue background for visual connection */
+    background-image: linear-gradient(#2fa9be, #0f3d5e); /* Gradient from light blue to deep blue */
+    border: 3px solid #0f3d5e; /* Dark blue border for definition */
+  }
+  
+  .rounded_corners {
+    border-radius: 10px;
+  }
+  
+  .top_rounded_corners {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .bottom_rounded_corners {
+    border-radius: 0 0 10px 10px;
+  }
+  
